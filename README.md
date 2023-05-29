@@ -122,10 +122,10 @@ npx expo start
 
 ## 🎨 Layout
 - [Figma](https://www.figma.com/community/file/1240070456276424762/C%C3%A1psula-do-tempo-%E2%80%A2-Trilha-Ignite)
-<p
-<img src="https://github.com/IagoDantas/spacetime/assets/82843173/1563e7dc-8911-4c72-946c-8f65521cf634" width="1000" height="700">
-<img src="https://github.com/IagoDantas/spacetime/assets/82843173/995a1692-f4cd-49ef-bd47-902b1afa08ad" width="1000" height="700">
-<img src="https://github.com/IagoDantas/spacetime/assets/82843173/03fe577a-6935-4dba-bf6d-beb1635bfaa2" width="1000" height="700">
+
+<img src="https://github.com/IagoDantas/spacetime/assets/82843173/1563e7dc-8911-4c72-946c-8f65521cf634" width="1100" height="700">
+<img src="https://github.com/IagoDantas/spacetime/assets/82843173/995a1692-f4cd-49ef-bd47-902b1afa08ad" width="1100" height="700">
+<img src="https://github.com/IagoDantas/spacetime/assets/82843173/03fe577a-6935-4dba-bf6d-beb1635bfaa2" width="1100" height="700">
 
 ## 📒 Notion 
 
