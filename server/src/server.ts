@@ -11,16 +11,15 @@ import { uploadRoutes } from './routes/upload'
 import { resolve } from 'node:path'
 const app = fastify()
 
+app.register(multipart)
+
 app.register(require('@fastify/static'),{
   root: resolve(__dirname, '../uploads'),
   prefix: '/uploads'
 })
 // Routes
 
-app.register(multipart)
-app.register(uploadRoutes)
-app.register(authRoutes)
-app.register(memoriesRoutes)
+
 
 app.register(cors, {
   origin: true,
@@ -28,6 +27,10 @@ app.register(cors, {
 app.register(jwt, {
   secret: 'spacetime',
 })
+
+app.register(uploadRoutes)
+app.register(authRoutes)
+app.register(memoriesRoutes)
 
 app
   .listen({
