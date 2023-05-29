@@ -3,7 +3,7 @@ import { cookies } from 'next/headers'
 
 import './globals.css'
 import {
-  Roboto_Flex as Roboto,
+  Roboto_Mono as Roboto,
   Bai_Jamjuree as BaiJamjuree,
 } from 'next/font/google'
 
@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           </div>
 
           {/* Right */}
-          <div className="flex flex-col bg-[url(../assets/bg-stars.svg)] bg-cover">
+          <div className="flex max-h-screen flex-col overflow-y-scroll bg-[url(../assets/bg-stars.svg)] bg-cover">
             {children}
           </div>
         </main>
